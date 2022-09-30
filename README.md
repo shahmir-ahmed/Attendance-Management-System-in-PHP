@@ -68,3 +68,6 @@ MySQL is used as database. Database design is made easy to understand.
 - students
 - attendance
 - leaves
+
+## Show your support
+Give a ⭐️ if you like this project!
