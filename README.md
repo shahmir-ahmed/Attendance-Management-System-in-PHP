@@ -15,7 +15,7 @@ Technologies used:  HTML5, CSS3, PHP and MySQL.
 - Reports Generation 
 - Easy Login, Signup, Logout, Data Updation
 
-## Student Panel
+## Student Panel ##
 
 - Student panel includes the registration and login page
 - Student can mark his/her attendance as present or absent
@@ -24,7 +24,7 @@ Technologies used:  HTML5, CSS3, PHP and MySQL.
 - Student can edit their personal details along with their profile picture
 - Student can send Leave Request to admin for leave
 
-## Admin Panel
+## Admin Panel ##
 
 - Admin can login through login page
 - Admin can view all the record of registered students
