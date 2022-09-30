@@ -1,5 +1,10 @@
 # Attendance Management System in PHP
-Technologies used:  HTML5, CSS3, PHP and MySQL.
+# Technologies used:  
+- HTML5
+- CSS3
+- Bootstrap
+- PHP
+- MySQL.
 
 
 # Requirements #
@@ -35,6 +40,18 @@ Technologies used:  HTML5, CSS3, PHP and MySQL.
 - Admin can approve, reject pending leaves of students. 
 - There is proper count of leaves, presents, absents of each student.
 - Admin can create a Complete System Report FROM and TO dates of all attendances of students.
+
+
+  ### Admin credential
+    username:admin
+    password:1212514
+    
+  ### Students credentials
+    username:shahmir
+    password:1212514
+    
+    username:shehryar
+    password:00000
 
 
 ## Database
