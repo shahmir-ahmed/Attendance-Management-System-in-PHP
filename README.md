@@ -43,14 +43,14 @@
 
 
   ### Admin credential
-    username:admin
-    password:1212514
+    `username:admin
+    password:1212514`
     
   ### Students credentials
-  ` username:shahmir <br/>
+  ` username:shahmir
     password:1212514 `
     
-  ` username:shehryar <br/>
+  ` username:shehryar
     password:00000 `
 
 
