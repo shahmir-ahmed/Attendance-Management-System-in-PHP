@@ -43,15 +43,19 @@
 
 
   ### Admin credential
-    `username:admin
-    password:1212514`
+    `username: admin
+    password: 1212514`
     
   ### Students credentials
-  ` username:shahmir
-    password:1212514 `
+  ` username: shahmir
+    password: 1212514 `
     
-  ` username:shehryar
-    password:00000 `
+  ` username: shehryar
+    password: 00000 `
+    
+## Project Image
+
+![alt text](https://github.com/shahmir-ahmed/Attendance-Management-System-in-PHP/blob/images/project-image.jpg?raw=true)
 
 
 ## Database
