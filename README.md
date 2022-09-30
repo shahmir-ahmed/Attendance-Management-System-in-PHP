@@ -1,5 +1,5 @@
 # Attendance Management System in PHP
-Technologies used:  
+## Technologies used:  ##
 - HTML5
 - CSS3
 - Bootstrap
@@ -7,12 +7,12 @@ Technologies used:
 - MySQL.
 
 
-# Requirements #
+## Requirements ##
   - PHP 5.3 or higher.
   - MySQL 5.6 or higher for spatial features in MySQL.
   - XAMPP or WAMP server for localhost. 
 
-# Features #
+## Features ##
 
 - Secure, User-friendly
 - Manage Students Information
@@ -47,11 +47,11 @@ Technologies used:
     password:1212514
     
   ### Students credentials
-  ` username:shahmir `
-  ` password:1212514 `
+  ` username:shahmir 
+    password:1212514 `
     
-  ` username:shehryar `
-  ` password:00000 `
+  ` username:shehryar
+    password:00000 `
 
 
 ## Database
