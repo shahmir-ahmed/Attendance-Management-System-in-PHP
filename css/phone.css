@@ -1,0 +1,107 @@
+/* Media Queries */
+
+@media screen and (max-width:840px){
+    /* header{
+      flex-direction: column;
+    } */
+
+    header .title{
+      display: none;
+    }
+
+    header .title h1 {
+      font-size: 1rem;
+    }
+
+    .active:hover{
+        color: white;
+    }
+
+    .attendance-buttons{
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(4, 1fr);
+    }
+
+    .view{
+      grid-column: auto;
+    }
+
+    #register-title{
+      display: block;
+    }
+
+    #user-header{
+      flex-direction: row;
+    }
+
+    .showcase::before{
+      height: 130vh;
+    }
+
+}
+
+@media screen and (max-width:750px){
+  /* For student menu */
+
+  /* .user-nav-links{
+    flex-direction: row;
+    top: 0 !important;
+    right: 0 !important;
+  } */
+
+  .header{
+    flex-direction: column;
+  }
+
+  .header .left-btn{
+    align-self: flex-start;
+  }
+
+  .header .right-btn{
+    position: absolute;
+    top: 23px;
+    align-self: flex-end;
+  }
+
+  .h1{
+    font-size: 1.5rem !important;
+  }
+
+  /* .header .left-btn, 
+  .header .right-btn{
+    position: static;
+  } */
+}
+
+@media screen and (max-width:590px){
+
+  .registration-form{
+    width: 80%;
+    font-size: .8rem;
+  }
+
+  .registration-form form span {
+    font-size: 0.8rem;
+  }
+
+  .registration-form form input[type="text"],
+  .registration-form form input[type="password"], 
+  .registration-form form input[type="submit"]{
+  font-size: .8rem;
+  }
+
+  .login-form{
+    width: 80%;
+  }
+
+  .go-back-btn{
+    position: static !important;
+  }
+  
+  /* For nav-links effect */
+  .nav-links{
+    right: -15px !important;
+    top: 95px !important;
+  }
+
+}

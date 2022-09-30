@@ -1,0 +1,552 @@
+/* Font Style Import */
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+/* CSS Reset */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif !important;
+  min-width: 0 !important;
+  height: auto !important;
+}
+
+/* Navigation Bar */
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px 15px;
+  /* background-color: rgb(175, 214, 214); */
+  /* background-color: rgb(233, 227, 227); */
+  /* position: relative; */
+}
+
+/* Logo */
+
+header .logo {
+  width: 90px;
+}
+
+/* Title */
+
+header .title {
+  /* padding-left: 25px; */
+  /* padding-left: 50px; */
+  text-align: center;
+  /* color: teal; */
+  width: 70%;
+}
+
+header .title h1 {
+  font-size: 1.8rem;
+}
+
+#user-title {
+  color: white;
+}
+
+/* header .title h1 span:first-child {
+  color: rgb(93, 175, 208);
+}
+
+header .title h1 span:last-child {
+  color: rgb(255, 110, 135);
+} */
+
+/* Navigation Links */
+
+header .nav-links {
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  /* width: 13%; */
+  position: absolute;
+  right: 15px;
+  top: 35px;
+  transform: scale(0) translateX(100%);
+  transition: 0.6s;
+
+  /* background-color: rgba(0, 0, 0, 0.1);
+  height: 80vh; */
+}
+
+.nav-links.show {
+  transform: scale(1) translateX(-40%);
+}
+
+.nav-links li a {
+  text-decoration: none;
+  color: black;
+  display: block;
+  padding: 8px;
+  margin: 5px;
+  border-radius: 10px;
+  transition: all 0.4s ease-in-out;
+}
+
+.nav-links .active {
+  background-color: black;
+  color: white;
+  border: 1px solid black;
+}
+
+.nav-links .active:hover {
+  color: black;
+  background-color: transparent;
+}
+
+.register:hover {
+  color: rgb(88, 88, 88);
+}
+
+.hamburger {
+  width: 80px;
+}
+
+.hamburger button {
+  width: 100%;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+#hamburger img.show {
+  display: none;
+}
+
+/* Showcase Section on Home */
+
+.showcase::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-image: url("../images/hero-img.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+/* Login Webpage */
+
+.login-form {
+  /* background-color: pink; */
+  width: 400px;
+  text-align: center;
+  margin: auto;
+  margin-top: 20px;
+  border-radius: 20px;
+  padding: 20px;
+  box-shadow: 3px 3px 4px gainsboro, -3px -3px 4px gainsboro;
+  border-top: 3px solid purple;
+}
+.login-form form {
+  text-align: left;
+}
+
+.login-form input[type="text"],
+.login-form input[type="password"] {
+  border: none;
+  border-bottom: 2px solid rgb(86, 86, 86);
+  margin: 0 0 20px 0;
+  padding-top: 20px;
+  display: block;
+  width: 100%;
+  font-size: 1.1rem;
+}
+
+.login-form input[type="text"],
+input[type="password"]:focus {
+  outline: none;
+}
+
+.login-form input[type="submit"] {
+  margin-bottom: 20px;
+  background-color: white;
+  border: none;
+  background-color: rgb(101, 101, 255);
+  padding: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  color: white;
+  width: 100%;
+  font-size: 1rem;
+  transition: background-color 0.4s ease-in-out;
+}
+
+.login-form input[type="submit"]:hover {
+  background-color: rgb(88, 88, 215);
+}
+
+/* User Panel Webpage */
+
+/* .user-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  list-style: none;
+  padding: 0;
+  height: 123px;
+} */
+
+/* .user-nav-links{
+  top: 10px !important;
+  right: -23px !important;
+} */
+
+header .nav-links .user-image {
+  height: 105px;
+  width: 105px;
+}
+
+/* .user-nav a{
+  display: block;
+  border: 1px solid black;
+  background-color: black;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 10px;
+} */
+
+.nav-links .my-account-btn {
+  color: white;
+  background-color: #0d6efd;
+  border: 1px solid #0d6efd;
+}
+
+.nav-links .my-account-btn:hover {
+  background-color: white;
+  color: #0d6efd;
+}
+
+.nav-links .log-out {
+  color: white;
+  background-color: red;
+  border: 1px solid red;
+}
+
+.nav-links .log-out:hover{
+  color: red;
+  background-color: #fff;;
+}
+
+/* .user-nav-links{
+
+} */
+
+.attendance-buttons::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  background-image: url("../images/classroom.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  opacity: 0.8;
+}
+
+.attendance-buttons {
+  width: 90%;
+  height: 300px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-gap: 1rem;
+  margin-top: 50px;
+  padding: 10px;
+  /* background-color: rgb(78, 202, 202);
+    border-radius: 20px;
+    box-shadow: 3px 3px 3px rgb(255, 70, 70); */
+  justify-items: center;
+  align-items: center;
+}
+
+.attendance-buttons a {
+  padding: 10px;
+  text-align: center;
+  border-radius: 20px;
+  text-decoration: none;
+  color: white;
+  transition: all 0.4s ease-in-out;
+}
+
+#present {
+  background-color: rgb(107, 223, 107);
+  border: 2px solid rgb(107, 223, 107);
+}
+
+#present:hover {
+  background-color: white;
+  color: rgb(107, 223, 107);
+}
+
+#absent {
+  background-color: red;
+  border: 2px solid red;
+}
+
+#absent:hover {
+  background-color: white;
+  color: red;
+}
+
+#leave {
+  background-color: #c3c318;
+  border: 2px solid #c3c318;
+}
+
+#leave:hover {
+  background-color: white;
+  color: #c3c318;
+}
+
+.view {
+  grid-column: 1 / span 3;
+}
+
+#view {
+  background-color: grey;
+  border: 2px solid grey;
+}
+
+#view:hover {
+  background-color: white;
+  color: grey;
+}
+
+/* Go-back & right-btn */
+
+.header{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 23px;
+}
+
+/* .header .left-btn{
+  position: absolute;
+  top: 30px;
+  left: 20px;
+}
+
+.header .right-btn{
+  position: absolute;
+  top: 30px;
+  right: 20px;
+} */
+
+/* Leave Form Submission Webpage */
+
+.leave-form{
+  padding: 20px;
+}
+
+/* Registration Form */
+
+.registration-form {
+  text-align: center;
+  width: 550px;
+  margin: auto;
+  margin-top: 10px;
+  border-radius: 20px;
+  padding: 20px;
+  box-shadow: 3px 3px 4px gainsboro, -3px -3px 4px gainsboro;
+  border-top: 3px solid gold;
+}
+
+.registration-form form {
+  text-align: left;
+}
+
+.registration-form form label {
+  font-weight: bold;
+}
+
+.registration-form form input {
+  display: block;
+  width: 100%;
+  margin: 0 0 20px 0;
+  padding-top: 20px;
+}
+
+.registration-form form input[type="text"],
+.registration-form form input[type="password"] {
+  border: none;
+  border-bottom: 2px solid rgb(86, 86, 86);
+  margin: 0 0 20px 0;
+  padding-top: 20px;
+  font-size: 1.1rem;
+}
+
+.registration-form form input:focus {
+  outline: none;
+}
+
+.registration-form form input[type="radio"] {
+  display: inline;
+  width: auto;
+  margin-bottom: 30px;
+}
+
+.registration-form form input[type="submit"] {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-color: white;
+  border: none;
+  background-color: gold;
+  padding: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  color: white;
+  width: 100%;
+  font-size: 1rem;
+  transition: background-color 0.4s ease-in-out;
+}
+
+.registration-form form input[type="submit"]:hover {
+  background-color: rgb(235, 200, 0);
+}
+
+.registration-form h4 {
+  margin-bottom: 0px;
+}
+
+.registration-form form input[type="radio"] + label {
+  font-weight: normal;
+}
+
+.registration-form form span {
+  font-size: 0.9rem;
+  color: red;
+}
+
+/* Students Details Webpage */
+
+/* .header {
+  padding: 20px;
+}
+
+.header .btn {
+  margin: 20px;
+} */
+
+/* .header a {
+  color: #fff !important;
+} */
+
+.students-table {
+  width: 85%;
+  margin: auto;
+}
+
+/* .students-table table  */
+
+.student-attendance-table{
+  width: 80%;
+  margin: auto;
+}
+
+.student-leave-table{
+  width: 90%;
+  margin: auto;
+}
+
+/* Chat Button */
+
+.chat {
+  position: fixed;
+  right: 20px;
+  bottom: 30px;
+}
+
+.chat a {
+  border: none;
+  color: white;
+  background-color: purple;
+  border: 2px solid purple;
+  padding: 12px;
+  border-radius: 35px;
+  text-decoration: none;
+  position: relative;
+  transition: all 0.4s ease-in-out;
+}
+
+.chat a:hover {
+  color: purple;
+  background-color: white;
+}
+
+.chat a span {
+  position: absolute;
+  right: -3px;
+  top: -17.5px;
+  color: green;
+  font-size: 2rem;
+}
+
+/* Utility classes */
+
+a{
+  display: block;
+}
+
+.column {
+  flex-direction: column;
+}
+
+.h1{
+  margin-top: .5rem;
+}
+
+.form-group {
+  width: 70% !important;
+  margin: auto !important;
+}
+
+.form-group .btn {
+  width: 90% !important;
+  margin: 20px auto !important;
+}
+
+.form-group label{
+  font-weight: bold;
+}
+
+#student-image{
+  display: block;
+  border-radius: 50%;
+}
+
+.form-group .form-control-file{
+  margin: 0 0 20px 0;
+  /* width: 224px; */
+  width: 87%;
+}
+
+.go-back-btn{
+  margin: 12px 20px;
+}
+
+.swal2-popup{
+  width: 27em;
+}

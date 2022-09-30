@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login to AMS - Attendance Management System</title>
+    
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="../images/favicon.ico" type="image/x-icon">
+
+    <!-- CSS Stylesheet -->
+    <link rel="stylesheet" href="../css/style.css">
+
+    <!-- CSS Stylesheet -->
+    <link rel="stylesheet" href="../css/phone.css">
+
+    <!-- JavaScript -->
+    <script src="../js/index.js"></script>
+</head>
+
+<body>
+
+    <!-- Navigation Bar -->
+
+    <header class="column">
+        <div class="logo">
+            <a href="../index.html">
+                <img src="../images/logo.png" alt="logo" width="100%" height="100%">
+            </a>
+        </div>
+        <div class="title">
+            <h1 style="margin: 10px 0;"><span> Attendance</span> Management <span> System</span></h1>
+        </div>
+    </header>
+
+    <!-- Main Section -->
+
+    <div class="login-form">
+        <h2>Login to AMS as Admin</h2>
+        <form action="login.php" method="post">
+            <div id="sign-in">
+                <label for="username">Username </label>
+                <input name="username" type="text"  required>
+                
+                <label for="password">Password</label>
+                <input name="password" type="password"  required>
+            </div>
+                
+            <input type="submit" value="Login">
+
+            <!-- <a href="#">Forgot password?</a> -->
+
+        </form>
+    </div>
+
+    <!-- Chat Online Section -->
+
+    <div class="chat">
+        <a href="#" title="Chat online with an admin">Chat<span>●</span></a>
+    </div>
+</body>
+
+</html>
