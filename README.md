@@ -2,12 +2,12 @@
 Technologies used:  HTML5, CSS3, PHP and MySQL.
 
 
-## Requirements
+# Requirements #
   - PHP 5.3 or higher.
   - MySQL 5.6 or higher for spatial features in MySQL.
   - XAMPP or WAMP server for localhost. 
 
-## Features
+# Features #
 
 - Secure, User-friendly
 - Manage Students Information
