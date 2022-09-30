@@ -1,5 +1,5 @@
 # Attendance Management System in PHP
-# Technologies used:  
+Technologies used:  
 - HTML5
 - CSS3
 - Bootstrap
@@ -47,11 +47,11 @@
     password:1212514
     
   ### Students credentials
-    username:shahmir
-    password:1212514
+  ` username:shahmir `
+  ` password:1212514 `
     
-    username:shehryar
-    password:00000
+  ` username:shehryar `
+  ` password:00000 `
 
 
 ## Database
