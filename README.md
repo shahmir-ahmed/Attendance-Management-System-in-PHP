@@ -55,7 +55,7 @@
     
 ## Project Image
 
-![alt text](https://github.com/shahmir-ahmed/Attendance-Management-System-in-PHP/blob/images/project-image.jpg?raw=true)
+![alt text](https://github.com/shahmir-ahmed/Attendance-Management-System-in-PHP/blob/main/images/project-image.jpg?raw=true)
 
 
 ## Database
